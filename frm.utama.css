@@ -1,0 +1,21 @@
+body {
+    background-image: url('new.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Tinggi 100% dari viewport height */
+    width: 100vw; /* Lebar 100% dari viewport width */
+    margin: 0; /* Menghapus margin */
+    padding: 0; /* Menghapus padding */
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 150px;
+    font-size: 36px;
+}
+
+/* Tambahkan gaya CSS tambahan sesuai kebutuhan Anda */

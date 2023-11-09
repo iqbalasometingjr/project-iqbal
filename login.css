@@ -1,0 +1,92 @@
+/* Style the body */
+
+body {
+    background-image: url('new.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Tinggi 100% dari viewport height */
+    width: 100vw; /* Lebar 100% dari viewport width */
+    margin: 0; /* Menghapus margin */
+    padding: 0; /* Menghapus padding */
+
+    font-family: Arial, sans-serif;
+}
+
+/* Style the login container */
+.login-container {
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the login form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the form groups */
+.form-group {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Style the labels */
+label {
+    font-weight: bold;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the login button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style the registration button */
+button[type="button"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Hover effect for buttons */
+button[type="submit"]:hover,
+button[type="button"]:hover {
+    opacity: 0.8;
+}
+
+/* Center the buttons */
+center {
+    text-align: center;
+}
+
+/* Add some spacing */
+.login-container h2 {
+    margin-bottom: 20px;
+}

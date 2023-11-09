@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi Pengguna</title>
+    <link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>
+    <h2>Registrasi Pengguna</h2>
+    <form action="register.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <input type="checkbox" id="showPassword" onclick="showPassword()"> Show Password<br>
+
+        <input type="submit" value="Daftar">
+    </form>
+
+    <script>
+        function showPassword() {
+            var passwordField = document.getElementById("password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
+</body>
+</html>
